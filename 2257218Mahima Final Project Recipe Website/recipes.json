@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Spaghetti Carbonara",
+        "cuisine": "Italian",
+        "mealType": "Main Course",
+        "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan Cheese", "Black Pepper"],
+        "instructions": "Cook spaghetti. Mix eggs and cheese. Cook pancetta. Combine all with spaghetti.",
+        "image": "recipeimg/s.jpg"
+    },
+    {
+        "name": "Tiramisu",
+        "cuisine": "Italian",
+        "mealType": "Dessert",
+        "ingredients": ["Mascarpone", "Eggs", "Sugar", "Espresso", "Ladyfingers", "Cocoa Powder"],
+        "instructions": "Prepare mascarpone mixture. Soak ladyfingers in espresso. Layer with mascarpone. Dust with cocoa.",
+        "image": "recipeimg/t.jpg"
+    },
+    {
+        "name": "Chicken Tikka Masala",
+        "cuisine": "Indian",
+        "mealType": "Main Course",
+        "ingredients": ["Chicken", "Yogurt", "Tomato Sauce", "Garlic", "Ginger", "Spices"],
+        "instructions": "Marinate chicken in yogurt and spices. Cook with tomato sauce, garlic, and ginger.",
+        "image": "recipeimg/c.jpg"
+    },
+    {
+        "name": "Vegetable Stir-Fry",
+        "cuisine": "Chinese",
+        "mealType": "Main Course",
+        "ingredients": ["Broccoli", "Carrots", "Bell Peppers", "Soy Sauce", "Garlic", "Ginger"],
+        "instructions": "Stir-fry vegetables with garlic and ginger. Add soy sauce.",
+        "image": "recipeimg/v.jpg"
+    },
+    {
+        "name": "Beef Tacos",
+        "cuisine": "Mexican",
+        "mealType": "Main Course",
+        "ingredients": ["Ground Beef", "Taco Shells", "Lettuce", "Cheese", "Salsa"],
+        "instructions": "Cook ground beef. Fill taco shells with beef, lettuce, cheese, and salsa.",
+        "image": "recipeimg/b.jpg"
+    },
+    {
+        "name": "Caesar Salad",
+        "cuisine": "American",
+        "mealType": "Appetizer",
+        "ingredients": ["Romaine Lettuce", "Croutons", "Parmesan Cheese", "Caesar Dressing"],
+        "instructions": "Toss lettuce with croutons, cheese, and dressing.",
+        "image": "recipeimg/ce.jpg"
+    },
+    {
+        "name": "Butter Chicken",
+        "cuisine": "Indian",
+        "mealType": "Main Course",
+        "ingredients": ["Chicken", "Butter", "Tomato Puree", "Cream", "Spices"],
+        "instructions": "Cook chicken with butter, tomato puree, cream, and spices.",
+        "image": "recipeimg/bu.jpg"
+    },
+    {
+        "name": "Sushi Rolls",
+        "cuisine": "Japanese",
+        "mealType": "Main Course",
+        "ingredients": ["Sushi Rice", "Nori", "Fish", "Vegetables"],
+        "instructions": "Roll sushi rice with nori, fish, and vegetables.",
+        "image": "recipeimg/su.jpg"
+    },
+    {
+        "name": "Chocolate Cake",
+        "cuisine": "Dessert",
+        "mealType": "Dessert",
+        "ingredients": ["Flour", "Sugar", "Cocoa Powder", "Baking Powder", "Eggs", "Butter"],
+        "instructions": "Mix ingredients and bake in a preheated oven.",
+        "image": "recipeimg/co.jpg"
+    },
+    {
+        "name": "Greek Salad",
+        "cuisine": "Greek",
+        "mealType": "Appetizer",
+        "ingredients": ["Tomatoes", "Cucumbers", "Olives", "Feta Cheese", "Olive Oil"],
+        "instructions": "Toss tomatoes, cucumbers, olives, and cheese with olive oil.",
+        "image": "recipeimg/g.jpg"
+    }
+]

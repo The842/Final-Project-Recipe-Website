@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Italian Pasta",
+        "image": "images/img2.jpg",
+        "description": "A classic Italian pasta recipe with rich tomato sauce.",
+        "cuisine": "Italian",
+        "mealType": "Dinner",
+        "ingredients": ["Pasta", "Tomato sauce", "Olive oil", "Garlic", "Basil", "Parmesan cheese"],
+        "instructions": "Boil pasta until al dente. In a separate pan, heat olive oil and sauté garlic. Add tomato sauce and cook for a few minutes. Mix in boiled pasta and garnish with basil and Parmesan cheese."
+    },
+
+    {
+        "name": "Chicken Tikka Masala",
+        "image": "images/img3.jpg",
+        "description": "A popular Indian dish with marinated chicken in a spiced curry sauce.",
+        "cuisine": "Indian",
+        "mealType": "Dinner",
+        "ingredients": ["Chicken", "Yogurt", "Tomato sauce", "Onion", "Garlic", "Ginger", "Spices"],
+        "instructions": "Marinate chicken in yogurt and spices. Cook onions, garlic, and ginger, then add marinated chicken and cook until done. Add tomato sauce and simmer until thickened."
+    },
+    {
+        "name": "Egg Roll",
+        "image": "images/img4.jpg",
+        "description": "A delicious appetizer made with a savory filling wrapped in a crispy shell.",
+        "cuisine": "Asian",
+        "mealType": "Appetizer",
+        "ingredients": ["Egg roll wrappers", "Cabbage", "Carrots", "Ground pork", "Soy sauce", "Garlic", "Ginger"],
+        "instructions": "Cook ground pork with garlic and ginger. Add shredded cabbage and carrots, and stir-fry until tender. Place a spoonful of filling on each egg roll wrapper, fold, and roll up. Fry until golden brown and crispy."
+    }
+]

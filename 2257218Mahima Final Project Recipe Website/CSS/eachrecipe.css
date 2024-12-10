@@ -1,0 +1,133 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgba(74, 120, 125, 0.4);
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.recipe-details h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#favorite-button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+#favorite-button:hover {
+    color: red;
+}
+
+#favorite-button.active {
+    color: red;
+}
+
+
+.recipe-image-container {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: rgba(74, 120, 125, 0.4);
+}
+
+.recipe-image-container img {
+    width: 50%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.recipe-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.ingredients, .instructions {
+    flex: 1;
+}
+
+.recipe-info h3 {
+    font-size: 32px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients ul li {
+    background-color: #182f32;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.instructions p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}

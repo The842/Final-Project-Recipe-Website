@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="CSS/homestyle.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+    </script> <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+</head>
+<body>
+    <!-- Top Menu -->
+    <header>
+        <h1>Organic Recipe</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="recipes.html">All Recipes</a>
+            <a href="videos.html">Watch Videos</a>
+            <a href="favorite.html">Favorites</a>
+            <a href="signIn.html">Singn In</a>
+        </nav>
+    </header>
+
+    <!-- Advertising -->
+    <section class="advert">
+        <img src="images/imgrecipe.jpg" alt="Culinary Passion">
+        <h4>Unleash Your Culinary Passion</h4>
+        <h1>Discover Taste Sensations</h1>
+        <h3>Elevate Your Cooking Game</h3>
+        <a href="recipes.html" class="button">Start Cooking</a>
+    </section>
+
+    
+    <!-- Image Carousel --> 
+    <section class="image-carousel"> 
+        <div class="image-carousel-inner">
+            <img src="images/img11.jfif" alt="Image 1">
+            <img src="images/img12.jfif" alt="Image 2">
+            <img src="images/img13.jfif" alt="Image 3">
+            
+            <img src="images/img11.jfif" alt="Image 1">
+            <img src="images/img12.jfif" alt="Image 2">
+            <img src="images/img13.jfif" alt="Image 3">
+
+            <img src="images/img11.jfif" alt="Image 1">
+            <img src="images/img12.jfif" alt="Image 2">
+            <img src="images/img13.jfif" alt="Image 3">
+
+            <img src="images/img11.jfif" alt="Image 1">
+            <img src="images/img12.jfif" alt="Image 2">
+            <img src="images/img13.jfif" alt="Image 3">
+            
+        </div>
+    </section>
+    
+    
+
+    <!-- Main content in HTML5 -->
+    <main>
+        <section class="about">
+            <h2>Who are we?</h2>
+            <div class="aboutinfo">
+                <img src="images/img100.jfif" alt="About Us">
+                <div class="abouttext">
+                    <p>Welcome to our recipe website, where culinary inspiration meets delicious creations! Whether you're a seasoned chef or a passionate home cook, we are here to ignite your taste buds and guide you on a delightful culinary journey. Our extensive collection of recipes covers a wide range of cuisines, from comforting classics to innovative fusion dishes. Each recipe is thoughtfully crafted, tested, and presented with step-by-step instructions, ensuring that even the novice cook can create extraordinary meals. We believe that cooking is an art form that brings people together, and our goal is to empower you to explore your culinary creativity and make every meal a masterpiece. So come on in, explore our diverse recipe collection, and let's embark on a delightful gastronomic adventure together!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Some recipes -->
+        <div class="recipe">
+            <h2>Some Of Our New Recipes</h2>
+            <div class="box">
+                <div class="card">
+                    <img src="recipeimg/t.jpg" alt="Recipe 1">
+                    <div class="content">
+                        <h3>Recipe 1</h3>
+                        <p>Tiramisu</p>
+                        <a href="eachrecipe.html?id=1"><button>View Recipe</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="recipeimg/c.jpeg" alt="Recipe 2">
+                    <div class="content">
+                        <h3>Recipe 2</h3>
+                        <p>Chicken Tikka Masala</p>
+                        <a href="eachrecipe.html?id=2"><button>View Recipe</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="recipeimg/v.jpg" alt="Recipe 3">
+                    <div class="content">
+                        <h3>Recipe 3</h3>
+                        <p>Vegetable Stir-Fry</p>
+                        <a href="eachrecipe.html?id=3"><button>View Recipe</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Section -->
+        <div class="categories">
+            <h2>Categories</h2>
+            <div class="box">
+                <div class="ca-card">
+                    <img src="images/img5.jpg" alt="Main Courses">
+                    <div class="content">
+                        <h3>Main Courses</h3>
+                        <a href="readmore.html#main-course" class="button">Read More</a>
+                    </div>
+                </div>
+                <div class="ca-card">
+                    <img src="images/img6.jpg" alt="Desserts">
+                    <div class="content">
+                        <h3>Desserts</h3>
+                        <a href="readmore.html#desserts" class="button">Read More</a>
+                    </div>
+                </div>
+                <div class="ca-card">
+                    <img src="images/img7.jpg" alt="Healthy Eats">
+                    <div class="content">
+                        <h3>Healthy Eats</h3>
+                        <a href="readmore.html#healthy-eats" class="button">Read More</a>
+                    </div>
+                </div>
+                <div class="ca-card">
+                    <img src="images/img8.jpg" alt="Baking">
+                    <div class="content">
+                        <h3>Baking</h3>
+                        <a href="readmore.html#baking" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Welcome Modal --> 
+    <div id="welcome-modal" title="Welcome!" style="display:none;"> 
+        <p>Welcome to Organic Recipe! We are delighted to have you here. Click the button below to sign up.</p> 
+        <button id="submit-button">Sign Up</button> 
+        <button id="close-button">Close</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li>Quick Access</li>
+            <li><a href="home.html" style="color: #fff;">Home</a></li>
+            <li><a href="recipes.html" style="color: #fff;">Recipes</a></li>
+            <li><a href="videos.html" style="color: #fff;">Videos</a></li>
+            <li><a href="favorite.html" style="color: #fff;">Favorites</a></li>
+            <li><a href="signIn.html" style="color: #fff;">Sign In</a></li>
+        </ul>
+        <p>Copyright 2024 - All rights reserved</p>
+    </footer>  
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
